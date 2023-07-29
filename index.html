@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Plantation King</title>
+</head>
+<body>
+	<style>* {margin:0;padding:0;box-sizing:border-box;}body{background-color: black;}</style>
+ 	<h1 style="color:white;text-align: center;font-family: sans-serif;">Mate 100 zumbies</h1>
+ 	<p style="color:white;text-align: center;font-family: sans-serif;">Famoso copia mas não cola do Plants vs Zumbies</p>
+ 	<p style="color:white;text-align: center;font-family: sans-serif;font-size: 10px;">O personagem é movido a mouse ( ao encostar no zumbie, ele pode mover o zumbie para alguns blocos atras (limite de 2 vezes) ) </p>
+	<div style="display:flex;justify-content:center;margin-top:100px;">
+		<canvas style="border:1px solid gray;"></canvas>
+	</div>
+	<script>
+		const canvas = document.querySelector('canvas');
+		const c = canvas.getContext('2d');
+		canvas.width = 500;
+		canvas.height = 252;
+	</script>
+	<script src="scripts/class.js"></script>
+	<script src="scripts/controllers.js"></script>
+	<script src="scripts/gameObjects.js"></script>
+	<script src="scripts/ZumbiesController.js"></script>
+	<script src="scripts/AmmunitionController.js"></script>
+	<script src="scripts/CharacterController.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
